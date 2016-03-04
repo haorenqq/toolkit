@@ -24,8 +24,7 @@
 15、ssh到ios设备上，passwd root改密码，在mac中iosod sshkey -h <设备IP>,为自己的mac设备添加公钥，免密码访问ios设备<br />
 16、xcode 左上方要选择好真机，"Generic IOS Device"也可以，不要用模拟器，否则architecture不对<br />
 17、不要只在头文件中引入<UIKit>，还需要在Build phase中引入UIKit框架（注意要引入libsubstrate.dylib）<br />
-18、在 targets - architectures 里面把 arm64 去掉可以免除一些警告<br />
-19、根据真机的版本，调整 iOS Deplayment Target<br />
+18、根据真机的版本，调整 iOS Deplayment Target<br />
 
 上面是真实搭建过程。<br />
 感谢博主：http://blog.csdn.net/u013583789/article/details/50396747<br />
